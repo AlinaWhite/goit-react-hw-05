@@ -33,7 +33,6 @@ function App() {
   }, []);
   return (
     <>
-      <Header />
       <Navigation />
 
       <Suspense fallback={<Loader backdrop />}>

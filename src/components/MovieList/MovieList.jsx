@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import Grid from "../utils/Grid/Grid";
 import GridItem from "../utils/GridItem/GridItem";
-import { transformGenresIds } from "../../helpers/transformGenresIds";
+import { transformGenresIds } from "../../helpers/transformGenreslds";
 import css from "./MovieList.module.css";
 import { HiStar } from "react-icons/hi2";
 
