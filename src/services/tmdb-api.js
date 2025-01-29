@@ -3,7 +3,8 @@ import axios from "axios";
 const baseGetConfig = {
   method: "get",
   headers: {
-    Authorization: `Bearer ${import.meta.env.VITE_TMDB_TOKEN}`,
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4NmVlZmYxNDUxYzhkODY1MjVjMjI2NWIxZmM2ZjQ2MSIsIm5iZiI6MTczODE5MTM0OC42MTksInN1YiI6IjY3OWFiMWY0OTAwNTI1MjQ5YWZiYmQ5NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.jz37eRZyQBHukWTKSZbEK-nxAexDC_p0jFTqTNWRH7Q",
     Accept: "application/json",
   },
 };
